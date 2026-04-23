@@ -1,0 +1,104 @@
+{ 
+    "request": 
+        {
+            "request-type": "lift"
+        },
+    "parameters":
+        {
+            "genetic-config": 
+                {
+                  "n-evaluation-trajectories" : 10,
+                  "n-fast-trajectories" : 5,
+                  "n-genetic-iterations" : 3,
+                  "n-mutation-places" : 10,
+                  "recombination-proba" : 0.5,
+                  "selection-size" : 10
+                },
+            "general-parameters":
+                {
+                    "evaluation-sample-count": 10,
+                    "rollout-sample-count": 5,
+                    "estimator-time-limit": 500
+                }
+        },
+    "configuration": 
+        {
+          "n-machines" : 1,
+          "n-order-types" : 1,
+          "n-periods" : 10,
+          "order-types" : 
+          [
+            {
+              "compatible-machines" : [ 0 ],
+              "count" : 10,
+              "decline-penalty" : 50.0,
+              "delivery-per-machine" : [ 3.0 ],
+              "due-term" : 24.0,
+              "duration-per-machine" : [ 0.25 ],
+              "idx-type" : 0,
+              "linear-sensitivity" : 0.040000000000000001,
+              "release-term" : 12.0,
+              "tardiness-penalty" : 0.25
+            }
+          ],
+          "period-durations" : 
+          [
+            12.848698565412679,
+            22.079388509620394,
+            13.455942951955565,
+            18.831735909481051,
+            17.244743283538931,
+            12.224976125814838,
+            12.487568850979912,
+            14.974659621363251,
+            13.122617947081476,
+            20.337883887181459
+          ],
+          "period-order-probability" : 
+          [
+            [ 1.0 ],
+            [ 1.0 ],
+            [ 1.0 ],
+            [ 1.0 ],
+            [ 1.0 ],
+            [ 1.0 ],
+            [ 1.0 ],
+            [ 1.0 ],
+            [ 1.0 ],
+            [ 1.0 ]
+          ],
+          "price-ranges" : 
+          [
+            [
+              [ 5.0, 10.0, 15.0, 20.0, 25.0 ]
+            ],
+            [
+              [ 5.0, 10.0, 15.0, 20.0, 25.0 ]
+            ],
+            [
+              [ 5.0, 10.0, 15.0, 20.0, 25.0 ]
+            ],
+            [
+              [ 5.0, 10.0, 15.0, 20.0, 25.0 ]
+            ],
+            [
+              [ 5.0, 10.0, 15.0, 20.0, 25.0 ]
+            ],
+            [
+              [ 5.0, 10.0, 15.0, 20.0, 25.0 ]
+            ],
+            [
+              [ 5.0, 10.0, 15.0, 20.0, 25.0 ]
+            ],
+            [
+              [ 5.0, 10.0, 15.0, 20.0, 25.0 ]
+            ],
+            [
+              [ 5.0, 10.0, 15.0, 20.0, 25.0 ]
+            ],
+            [
+              [ 5.0, 10.0, 15.0, 20.0, 25.0 ]
+            ]
+          ]
+        }
+}
